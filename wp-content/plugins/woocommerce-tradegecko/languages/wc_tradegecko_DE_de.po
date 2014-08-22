@@ -1,0 +1,634 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TradeGecko\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-22 11:03+0200\n"
+"PO-Revision-Date: 2013-08-27 14:47+0100\n"
+"Last-Translator: Carsten Lentfer <cle@carmadesign.eu>\n"
+"Language-Team: deliciousmustards.com <contact@deliciousmustards.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: German\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../woocommerce-tradegecko-init.php:335
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../woocommerce-tradegecko-init.php:376
+msgid "N/A"
+msgstr "N/A"
+
+#: ../admin/wc-tradegecko-register-settings.php:36
+msgid "Enable TradeGecko Integration"
+msgstr "Aktivierung TradeGecko-Integration"
+
+#: ../admin/wc-tradegecko-register-settings.php:37
+msgid "Enable/Disable TradeGecko Integration"
+msgstr "TradeGecko-Integration de-/aktiveren"
+
+#: ../admin/wc-tradegecko-register-settings.php:38
+msgid "Enable to take advantage of the TradeGecko integration features."
+msgstr "Aktivieren, um die Funktionen der TradeGecko-Integration zu nutzen."
+
+#: ../admin/wc-tradegecko-register-settings.php:46
+msgid "Enable Debug"
+msgstr "Aktivierung Fehlerprotokollierung"
+
+#: ../admin/wc-tradegecko-register-settings.php:47
+msgid "Enable/Disable Debug Logging"
+msgstr "Fehlerprotokollierung de-/aktivieren"
+
+#: ../admin/wc-tradegecko-register-settings.php:48
+msgid ""
+"This option will provide you with a step by step log of all manipulations "
+"done during a synchronization. Please enable, if needed ONLY.<br />The debug "
+"log will be inside <code>woocommerce/logs/tradegecko.txt</code>."
+msgstr ""
+"Diese Option aktiviert ein Schritt-für-Schritt-Protokoll aller ausgeführten "
+"Änderungen während einer Synchronisierung. Bitte nur aktivieren, wenn "
+"unbedingt erforderlich. Das Fehlerprotokoll wird in <code>woocommerce/logs/"
+"tradegecko.txt</code> abgelegt."
+
+#: ../admin/wc-tradegecko-register-settings.php:56
+msgid "Inventory Settings"
+msgstr "Einstellungen Lagerverwaltung"
+
+#: ../admin/wc-tradegecko-register-settings.php:57
+msgid ""
+"This section will help you setup the inventory and product synchronization "
+"settings."
+msgstr ""
+"Dieser Abschnitt hilft Ihnen beim Einrichten der Einstellung für die "
+"Synchronisierung der Lagerbestände und der Produkte."
+
+#: ../admin/wc-tradegecko-register-settings.php:62
+msgid "Product Inventory Sync"
+msgstr "Synchronisation Produktbestände"
+
+#: ../admin/wc-tradegecko-register-settings.php:63
+msgid "Enable/Disable Product Stock Synchronization"
+msgstr "Synchronisation der Warenbestände de-/aktivieren."
+
+#: ../admin/wc-tradegecko-register-settings.php:64
+msgid ""
+"Enable, to sync your WooCommerce products inventory with TradeGecko. The "
+"WooCommerce inventory for each product will be synchronized with the "
+"TradeGecko inventory."
+msgstr ""
+"Aktivieren, um Ihre WooCommerce-Warenbestände mit Tradegecko zu "
+"synchronisieren. Die WooCommerce-Warenbestände für jedes Produkt werden mit "
+"den TradeGecko-Warenbeständen synchronisiert."
+
+#: ../admin/wc-tradegecko-register-settings.php:71
+msgid "Product Price Sync"
+msgstr "Synchronisation Produktpreise"
+
+#: ../admin/wc-tradegecko-register-settings.php:72
+msgid "Enable/Disable Product Price Synchronization"
+msgstr "Synchronisieren der Warenpreise de-/aktivieren"
+
+#: ../admin/wc-tradegecko-register-settings.php:73
+msgid ""
+"Enable, to sync your WooCommerce products prices with TradeGecko. The "
+"WooCommerce products prices will be synchronized with the products prices in "
+"TradeGecko."
+msgstr ""
+"Aktivieren, um Ihre WooCommerce-Produktpreise mit TradeGecko zu "
+"synchronisieren. Die WooCommerce-Produktpreise werden mit den TradeGecko-"
+"Produktpreisen synchronisiert."
+
+#: ../admin/wc-tradegecko-register-settings.php:80
+msgid "Product Title Sync"
+msgstr "Synchronisation Produkttitel"
+
+#: ../admin/wc-tradegecko-register-settings.php:81
+msgid "Enable/Disable Product Title Synchronization"
+msgstr "Synchronisieren der Produkttitel de-/aktivieren"
+
+#: ../admin/wc-tradegecko-register-settings.php:82
+msgid ""
+"Enable, to sync your WooCommerce products title with TradeGecko products "
+"title."
+msgstr ""
+"Aktivieren, um WooCommerce-Produkttitel mit TradeGecko-Proukttitlen zu "
+"synchroniseren."
+
+#: ../admin/wc-tradegecko-register-settings.php:90
+msgid "Orders Settings"
+msgstr "Einstellungen Bestellungen"
+
+#: ../admin/wc-tradegecko-register-settings.php:91
+msgid "This section will help you setup the orders synchronization settings."
+msgstr ""
+"Dieser Abschnitt hilft Ihnen beim Einrichten Ihrer Einstellungen für die "
+"Synchroniserung der Bestellungen."
+
+#: ../admin/wc-tradegecko-register-settings.php:96
+msgid "Orders Sync"
+msgstr "Synchronisation Bestellungen"
+
+#: ../admin/wc-tradegecko-register-settings.php:97
+msgid "Enable/Disable Orders Synchronization"
+msgstr "Synchronisieren von Bestellungen de-/aktivieren"
+
+#: ../admin/wc-tradegecko-register-settings.php:98
+msgid ""
+"Enable, to sync your WooCommerce orders with TradeGecko. The WooCommerce "
+"orders will be created send to TradeGecko and orders status will be updated "
+"as it is updated in TradeGecko. Your Customers info will be synced together "
+"with the orders."
+msgstr ""
+"Aktivieren, um WooCommerce-Bestellungen mit TradeGecko zu synchronisieren. "
+"Die WooCommerce-Bestellungen werden erzeugt und an Tradegecko übertragen. "
+"Der Status Ihrer Bestellungen wird aktualisiert, sobald diese in TradeGecko "
+"aktualisiert werden. Die Kundeninformationen werden zusammen mit den "
+"Bestellungen synchronisiert. "
+
+#: ../admin/wc-tradegecko-register-settings.php:106
+msgid "Order Number Prefix"
+msgstr "Präfix Bestellnummer"
+
+#: ../admin/wc-tradegecko-register-settings.php:108
+msgid ""
+"Enter an prefix word that will identify the store orders from your other "
+"channel orders."
+msgstr ""
+"Geben Sie einen Präfix an, um Ihre Shopbestellungen von Ihren anderen "
+"Bestellungen zu differenzieren können."
+
+#: ../admin/wc-tradegecko-register-settings.php:119
+msgid "TradeGecko API Settings"
+msgstr "Einstellungen Tradegecko-API"
+
+#: ../admin/wc-tradegecko-register-settings.php:120
+msgid "This section will help you setup the TradeGecko API settings."
+msgstr ""
+"Dieser Abschnitt unterstützt Sie beim Einrichten der TradeGecko API-"
+"Einstellungen."
+
+#: ../admin/wc-tradegecko-register-settings.php:125
+msgid "API Application Id"
+msgstr "API Application Id"
+
+#: ../admin/wc-tradegecko-register-settings.php:126
+msgid "Enter here the your API Application Id"
+msgstr "Geben Sie hier Ihre API Application Id ein"
+
+#: ../admin/wc-tradegecko-register-settings.php:132
+msgid "API Secret"
+msgstr "API Secret"
+
+#: ../admin/wc-tradegecko-register-settings.php:133
+msgid ""
+"Enter here the your API Secret. You will obtain that after you register your "
+"API Application."
+msgstr ""
+"Geben Sie hier den API Secret ein. Sie erhalten diesen nachdem Sie die API-"
+"Appklikation registiert haben."
+
+#: ../admin/wc-tradegecko-register-settings.php:139
+msgid "Redirect URI"
+msgstr "Weiterleitungs-URI "
+
+#: ../admin/wc-tradegecko-register-settings.php:140
+msgid ""
+"Enter here your API Redirect URI. This is the redirect uri you entered when "
+"you registered your API Application.<br/> The Redirect URI should be: "
+msgstr ""
+"Hier Ihre API-Weiterleitungs-URI eingeben. Dies ist die Weiterleitungs-URI, "
+"die Sie bei Registrierung Ihrer API-Applikation angegeben haben.<br /> Die "
+"Weiterleitungs-URI sollte lauten:"
+
+#: ../admin/wc-tradegecko-register-settings.php:146
+msgid "Authorization Code"
+msgstr "Authorisierungscode"
+
+#: ../admin/wc-tradegecko-register-settings.php:147
+msgid ""
+"Here you will see the Authorization Code given to you when you Authorize the "
+"TradeGecko Application."
+msgstr ""
+"Hier sehen Sie den Authorisierungscode, den Sie nach Autorisierung der "
+"TradeGecko-Applikation erhalten haben."
+
+#: ../admin/wc-tradegecko-register-settings.php:154
+msgid ""
+"Pressing the button will lead you to a TradeGecko page, where you will be "
+"asked to grant access and give Authorization to the application."
+msgstr ""
+"Durch Klicken der Schaltfläche gelangen Sie zu einer TradeGecko-Seite. Dort "
+"werden Sie gebeten, der Applikation Zugang zu gewähren und diese zu  "
+"autorisieren."
+
+#: ../admin/wc-tradegecko-register-settings.php:164
+msgid "Automatic Sync"
+msgstr "Automatische Synchronisation"
+
+#: ../admin/wc-tradegecko-register-settings.php:165
+msgid "This section will help you schedule automatic synchronizations."
+msgstr ""
+"Dieser Abschnitt hilft Ihnen bei der Planung der automatischen "
+"Synchronisierung."
+
+#: ../admin/wc-tradegecko-register-settings.php:170
+msgid "Automatic Synchronization"
+msgstr "Automatische Synchronisation"
+
+#: ../admin/wc-tradegecko-register-settings.php:171
+msgid ""
+"Enable, to be able to setup automatic sync schedule.<br />Next scheduled "
+"automatic sync: "
+msgstr ""
+"Aktiveren, um die automatische Synchronisation einzurichten.<br />Nächste "
+"automatische Synchronisierung am:"
+
+#: ../admin/wc-tradegecko-register-settings.php:173
+msgid "Enable/Disable Automatic Synchronization"
+msgstr "Automatisches Synchronisieren de-/aktivieren"
+
+#: ../admin/wc-tradegecko-register-settings.php:178
+msgid "Sync Time Interval"
+msgstr "Zeitintervall für Synchronisation"
+
+#: ../admin/wc-tradegecko-register-settings.php:179
+msgid ""
+"Select the time interval you want the automatic synchronization to be in."
+msgstr ""
+"Wählen Sie das Zeitintervall, in der die automatische Synchronisierung "
+"ausgeführt werden soll."
+
+#: ../admin/wc-tradegecko-register-settings.php:187
+msgid "Sync Time Period"
+msgstr "Zeiteinheit für Synchronisation"
+
+#: ../admin/wc-tradegecko-register-settings.php:188
+msgid ""
+"Select the period you want the above interval to be in. For example: if you "
+"selected \"5\" as Interval and \"Days\" as the Period, then your automatic "
+"sync will be every 5 Days"
+msgstr ""
+"Wählen Sie die Zeiteinheit für das obige Zeitintervall. Zum Beispiel: Wenn "
+"Sie \"5\" als Intervall und \"Days\" als Zeiteinheit ausgewählt haben, wird "
+"die automatische Synchronisierung alle 5 Tage ausgeführt."
+
+#: ../admin/wc-tradegecko-register-settings.php:197
+#: ../admin/wc-tradegecko-register-settings.php:711
+msgid "Manual Sync"
+msgstr "Manuell synchronisieren"
+
+#: ../admin/wc-tradegecko-register-settings.php:198
+msgid "This section will help you perform manual synchronizations."
+msgstr ""
+"In diesem Bereich können Sie eine manuelle Synchronisation durchführen."
+
+#: ../admin/wc-tradegecko-register-settings.php:204
+msgid "Pressing the button will perform a manual synchronization."
+msgstr ""
+"Durch das Klicken der Schaltfläche wird eine sofortige Synchonisation "
+"ausgeführt."
+
+#: ../admin/wc-tradegecko-register-settings.php:214
+msgid "Press the button to clear the synchronization logs."
+msgstr "Schaltfläche klicken, um Synchronisationsprotokolle zu löschen."
+
+#: ../admin/wc-tradegecko-register-settings.php:221
+msgid "Table to dispay the synchronization logs."
+msgstr "Tabelle zur Anzeige von Synchronisationsprotokollen."
+
+#: ../admin/wc-tradegecko-register-settings.php:243
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: ../admin/wc-tradegecko-register-settings.php:275
+msgid "API Settings"
+msgstr "API-Einstellungen"
+
+#: ../admin/wc-tradegecko-register-settings.php:308
+msgid "Sync Settings"
+msgstr "Synchronisationseinstellungen"
+
+#: ../admin/wc-tradegecko-register-settings.php:341
+#: ../classes/class-wc-tradegecko-list-table.php:22
+msgid "Synchronization Logs"
+msgstr "Synchronisationsprotokolle"
+
+#: ../admin/wc-tradegecko-register-settings.php:550
+#, php-format
+msgid ""
+"The callback function used for the <strong>%s</strong> setting is missing."
+msgstr "Die Callback-Funktion für die <strong>%s</strong>-Einstellung fehlt."
+
+#: ../admin/wc-tradegecko-register-settings.php:738
+msgid "Clear Sync Logs"
+msgstr "Protokolleinträge löschen"
+
+#: ../admin/wc-tradegecko-settings.php:11
+msgid "TradeGecko"
+msgstr "TradeGecko"
+
+#: ../admin/wc-tradegecko-settings.php:32
+msgid "General"
+msgstr "Allgemein"
+
+#: ../admin/wc-tradegecko-settings.php:36
+msgid "API"
+msgstr "API"
+
+#: ../admin/wc-tradegecko-settings.php:40
+msgid "Sync"
+msgstr "Synchronisation"
+
+#: ../admin/wc-tradegecko-settings.php:44
+msgid "Sync Logs"
+msgstr "Synchronisationsprotokolle"
+
+#: ../admin/wc-tradegecko-settings.php:53
+msgid "Settings Updated"
+msgstr "Einstellungen aktualisiert"
+
+#: ../admin/wc-tradegecko-settings.php:57
+msgid "New Authorization Code Obtained"
+msgstr "Neuen Authorisierungscode erhalten"
+
+#: ../classes/class-wc-tradegecko-admin.php:40
+#: ../classes/class-wc-tradegecko-admin.php:83
+msgid "TradeGecko Fulfillment Details"
+msgstr "TradeGecko Ausführungsdetails"
+
+#: ../classes/class-wc-tradegecko-admin.php:91
+msgid "Shipped Products:"
+msgstr "Versandte Produkte:"
+
+#: ../classes/class-wc-tradegecko-admin.php:111
+msgid "Shipped At:"
+msgstr "Versandt am:"
+
+#: ../classes/class-wc-tradegecko-admin.php:111
+msgid "The time and date the order was shipped at."
+msgstr "Zeit und Datum, zu der die Bestellung versandt wurde."
+
+#: ../classes/class-wc-tradegecko-admin.php:115
+#: ../classes/class-wc-tradegecko-admin.php:125
+msgid "2013-01-09T00:00:00Z"
+msgstr "2013-01-09T00:00:00Z"
+
+#: ../classes/class-wc-tradegecko-admin.php:121
+msgid "Received At:"
+msgstr "Eingegangen am:"
+
+#: ../classes/class-wc-tradegecko-admin.php:121
+msgid "The time and date the order was received at."
+msgstr "Zeit und Datum zu der die Bestellung eingegangen ist."
+
+#: ../classes/class-wc-tradegecko-admin.php:131
+#: ../classes/class-wc-tradegecko-admin.php:213
+msgid "Tracking Number:"
+msgstr "Sendungsnummer:"
+
+#: ../classes/class-wc-tradegecko-admin.php:131
+msgid "The shippment order tracking number, if provided."
+msgstr "Die Sendungsnummer für die Sendungsverfolgung, falls vorhanden."
+
+#: ../classes/class-wc-tradegecko-admin.php:135
+msgid "Tracking Number"
+msgstr "Sendungsnummer"
+
+#: ../classes/class-wc-tradegecko-admin.php:140
+#: ../classes/class-wc-tradegecko-admin.php:216
+msgid "Delivery Type:"
+msgstr "Versandart:"
+
+#: ../classes/class-wc-tradegecko-admin.php:140
+msgid "The type of the delivery service (ie: Courier, Pickup)."
+msgstr "Art der Lieferung (bspw.: Kurier, Abholung)."
+
+#: ../classes/class-wc-tradegecko-admin.php:144
+msgid "Delivery Type"
+msgstr "Versandart"
+
+#: ../classes/class-wc-tradegecko-admin.php:149
+#: ../classes/class-wc-tradegecko-admin.php:219
+msgid "Tracking Message:"
+msgstr "Nachricht Sendungsverfolgung:"
+
+#: ../classes/class-wc-tradegecko-admin.php:149
+msgid "Informational message about the order tracking."
+msgstr "Informative Nachricht zur Sendungsverfolgung."
+
+#: ../classes/class-wc-tradegecko-admin.php:153
+msgid "Tracking Message"
+msgstr "Nachricht Sendungsverfolgung"
+
+#: ../classes/class-wc-tradegecko-admin.php:185
+msgid "Shipping Details "
+msgstr "Versanddetails"
+
+#: ../classes/class-wc-tradegecko-admin.php:192
+msgid "Products Shipped:"
+msgstr "Versandte Produkte:"
+
+#: ../classes/class-wc-tradegecko-admin.php:210
+msgid "Order Shipped at:"
+msgstr "Bestellung versandt am:"
+
+#: ../classes/class-wc-tradegecko-admin.php:244
+#: ../classes/class-wc-tradegecko-admin.php:264
+msgid "Update from TradeGecko"
+msgstr "Aus TradeGecko aktualisieren"
+
+#: ../classes/class-wc-tradegecko-admin.php:244
+#: ../classes/class-wc-tradegecko-admin.php:264
+msgid "Export to TradeGecko"
+msgstr "Zu TradeGecko exportieren"
+
+#: ../classes/class-wc-tradegecko-ajax.php:99
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sie besitzen nicht die erforderlichen Rechte für diese Seite."
+
+#: ../classes/class-wc-tradegecko-ajax.php:102
+msgid "Cannot verify the request, please go back and try again."
+msgstr ""
+"Diese Anfrage kann nicht verifiziert werden. Bitte gehen Sie zurück und "
+"versuchen Sie es nochmals."
+
+#: ../classes/class-wc-tradegecko-api.php:47
+msgid ""
+"Cannot obtain TradeGecko API access token. Some or all of the essential API "
+"settings are missing. Please check \"API Application Id\", \"API Secret\", "
+"\"Redirect URI\" and \"Authorization Code\". If any of them are missing, "
+"please fill them in and re-authenticate the application."
+msgstr ""
+"Es ist kein TradeGecko API-Zugangstoken erhältlich. Einige oder alle API-"
+"Einstellungen fehlen. Bitte überprüfen Sie \"API Application ID\", \"API "
+"Secret\", \"Weiterleitungs-URI\" und \"Authorisierungscode\". Falls diese "
+"fehlen sollten, bitte ergänzen Sie diese authentifizieren Sie die "
+"Applikation erneut."
+
+#: ../classes/class-wc-tradegecko-api.php:65
+#, php-format
+msgid "Access token could not be generated. Error Code: %s. Error Message: %s."
+msgstr ""
+"Zugangstoken konnte nicht generiert werden. Fehlercode: %s. Fehlermeldung: "
+"%s."
+
+#: ../classes/class-wc-tradegecko-cron.php:57
+#, php-format
+msgid "Every %d %s"
+msgstr "Alle %d %s"
+
+#: ../classes/class-wc-tradegecko-list-table.php:21
+msgid "Synchronization Log"
+msgstr "Synchronisationsprotokoll"
+
+#: ../classes/class-wc-tradegecko-list-table.php:55
+msgid "#"
+msgstr "#"
+
+#: ../classes/class-wc-tradegecko-list-table.php:56
+msgid "Date"
+msgstr "Datum"
+
+#: ../classes/class-wc-tradegecko-list-table.php:57
+msgid "Log Type"
+msgstr "Protokoll-Typ"
+
+#: ../classes/class-wc-tradegecko-list-table.php:58
+msgid "Log Message"
+msgstr "Protokoll-Nachricht"
+
+#: ../classes/class-wc-tradegecko-list-table.php:106
+msgid "No Synchronization logs yet."
+msgstr "Noch keine Protokoll-Einträge vorhanden."
+
+#: ../classes/class-wc-tradegecko-sync.php:171
+#, php-format
+msgid ""
+"Inventory variants could not be pulled from the TradeGecko system. Error "
+"Code: %s. Error Message: %s."
+msgstr ""
+"Die Warenbestands-Varianten konnte nicht aus dem TradeGecko-System geladen "
+"werden. Fehlercode: %s. Fehlermeldung: %s."
+
+#: ../classes/class-wc-tradegecko-sync.php:197
+msgid ""
+"WooCommerce essential function \"get_product\" is missing. You are either "
+"using a version older than WooCommerce 2.0 or modified the WooCommerce "
+"plugin in someway."
+msgstr ""
+"Die WooCommerce-Funktion \"get_product\" ist nicht vorhanden. Entweder "
+"verwenden Sie eine ältere Version als WooCommerce 2.0 oder das WooCommerce-"
+"Plugin wurde verändert."
+
+#: ../classes/class-wc-tradegecko-sync.php:243
+#, php-format
+msgid ""
+"Could not retrieve main product info of %s. Error Code: %s. Error Message: "
+"%s."
+msgstr ""
+"Die Informationen zum Hauptprodukt %s konnten nicht abgerufen werden. "
+"Fehlercode: %s. Fehlermeldung: %s"
+
+#: ../classes/class-wc-tradegecko-sync.php:271
+msgid "Inventory Sync Completed Successfully"
+msgstr "Synchronisieren der Lagerbestände erfolgreich durchgeführt"
+
+#: ../classes/class-wc-tradegecko-sync.php:299
+#, php-format
+msgid ""
+"Could not retrieve the customer info for user \"%s\". Error Code: %s. Error "
+"Message: %s."
+msgstr ""
+"Die Kundeninformationen zu Kunde \"%s\" konnten nicht abgerufen werden. "
+"Fehlercode: %s. Fehlermeldung: %s."
+
+#: ../classes/class-wc-tradegecko-sync.php:320
+msgid "Customer Export Completed Successfully"
+msgstr "Exportieren der Kundendaten erfolgreich druchgeführt"
+
+#: ../classes/class-wc-tradegecko-sync.php:367
+#, php-format
+msgid ""
+"Customer info for user \"%s\" could not be updated. Error Code: %s. Error "
+"Message: %s."
+msgstr ""
+"Die Kundeninformation zu Kunde \"%s\" konnten nicht aktualisiert werden. "
+"Fehlercode: %s. Fehlermeldung: %s"
+
+#: ../classes/class-wc-tradegecko-sync.php:401
+#, php-format
+msgid ""
+"Could not retieve the addresses for user \"%s\". Error Code: %s. Error "
+"Message: %s."
+msgstr ""
+"Die Adresse für Kunde \"%s\" konnte nicht abgerufen werden. Fehlercode: %s. "
+"Fehlermeldung %s."
+
+#: ../classes/class-wc-tradegecko-sync.php:442
+#, php-format
+msgid ""
+"Shipping address for user \"%s\" could not be updated. Error Code: %s. Error "
+"Message: %s."
+msgstr ""
+"Die Versandadresse für Kunde \"%s\" konnte nicht aktualisiert werden. "
+"Fehlercode: %s. Fehlermeldung: %s."
+
+#: ../classes/class-wc-tradegecko-sync.php:479
+#, php-format
+msgid ""
+"Billing address for user \"%s\" could not be updated. Error Code: %s. Error "
+"Message: %s."
+msgstr ""
+"Die Rechnungsadresse für Kunde \"%s\" konnte nicht aktualisiert werden. "
+"Fehlercode: %s. Fehlermeldung: %s."
+
+#: ../classes/class-wc-tradegecko-sync.php:546
+#, php-format
+msgid ""
+"Customer \"%s\" could not be exported. Error Code: %s. Error Message: %s."
+msgstr ""
+"Kunde \"%s\" konnte nicht exportiert werden: Fehlercode: %s. Fehlermeldung: "
+"%s."
+
+#: ../classes/class-wc-tradegecko-sync.php:587
+#, php-format
+msgid ""
+"Could not create Billing address for user \"%s\". Error Code: %s. Error "
+"Message: %s."
+msgstr ""
+"Die Rechungsadresse für Kunde \"%s\" konnte nicht angelegt werden. "
+"Fehlercode: %s. Fehlermeldung: %s."
+
+#: ../classes/class-wc-tradegecko-sync.php:625
+#, php-format
+msgid ""
+"Could not create Shipping address for user \"%s\". Error Code: %s. Error "
+"Message: %s."
+msgstr ""
+"Die Versandadresse für Kunde \"%s\" konnte nicht angelegt werden. "
+"Fehlercode: %s. Fehlermeldung: %s."
+
+#: ../classes/class-wc-tradegecko-sync.php:732
+#, php-format
+msgid "Could not export order# \"%s\". Error Code: %s. Error Message: %s."
+msgstr ""
+"Die Bestellung #\"%s\" konnte nicht exportiert werden. Fehlercode: %s. "
+"Fehlermeldung: %s."
+
+#: ../classes/class-wc-tradegecko-sync.php:766
+#, php-format
+msgid ""
+"Could not retrieve the open orders from TradeGecko. Error Code: %s. Error "
+"Message: %s."
+msgstr ""
+"Die offenen Bestellungen konnten nicht aus TradeGecko abgerufen werden. "
+"Fehlercode: %s. Fehlermeldung: %s."
+
+#: ../classes/class-wc-tradegecko-sync.php:857
+msgid "Orders Sync Completed Successfully"
+msgstr "Synchronisieren der Bestellungen erfolgreich abgeschlossen"

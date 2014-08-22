@@ -1,0 +1,89 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+a {
+  font-weight: normal;
+  color: #333333; 
+}
+
+#left, #right, #middle, #head1 {
+  border: thin solid #ccc !important;
+  margin-top: 8px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  margin-left: 15px;
+}
+
+h1 {
+  font-size: 1.318em;
+  line-height: 1.387em;
+}
+.single-product .summary .price {
+  font-size: 0.7398em;
+}
+
+#sidebar .widget h3 {
+  font-size: 1.318em;
+}
+
+#sidebar .widget a {
+  font-size: 13px;
+  line-height: 25px;
+  font-weight:normal;
+}
+ul.products li.product img {
+  height: 195px;
+  width: 190px;
+}
+#footer-widgets .widget a {
+  font-weight: normal;
+  font-size: 13px;
+}
+.footer-wrap.contact a {
+  font-weight: normal;
+}
+.breadcrumbs-wrap .breadcrumb a {
+  color: #697578;
+  font-weight: bold;
+}
+ul.megaMenu li.menu-item a{
+  font-weight:bold;
+}
+ul.products li.product {
+  background: #ffffff;  
+}
+article.post a {
+  color: #25a4c1;
+}
+article.post a:hover {
+  color: #2192ac;
+}
+.hentry .aligncenter {
+  float:center;
+}
+.page-description a{
+color: #25a4c1;
+}
+
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go here */
+}

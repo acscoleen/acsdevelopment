@@ -1,0 +1,500 @@
+/**
+ * Sensei
+ *
+ * Styles which integrate this theme with Sensei.
+ * This stylesheet is only enqueued if Sensei is activated.
+ * http://www.woothemes.com/products/sensei/
+ */
+
+@import url(../../../../css/mixins.less);
+@import url(../../../../css/grid.less);
+
+
+// Layout
+.tax-course-category {
+	.course-container {
+		.type-course {
+			padding: 2.618em;
+			clear: both;
+			.entry {
+				clear: none;
+			}
+		}
+	}
+}
+
+.course-container, .single-course, .single-lesson, .learner-info, .type-course {
+	article.post {
+		width: auto;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.type-course {
+		padding:0;
+	}
+}
+
+.single-less {
+	article.post {
+		margin-right:0 !important;
+		margin-left:0 !important;
+		width: 100% !important;
+	}
+}
+
+.type-course {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	width:100% !important;
+	background: #fff;
+	padding:2.618em;
+	.borderbox;
+	.woo-image {
+		width: auto !important;
+	}
+
+	.entry {
+		padding:0 !important;
+	}
+
+	.alignleft {
+		margin-left: 0 !important;
+	}
+
+	.alignright {
+		margin-right: 0 !important;
+	}
+
+	article.post {
+		width: auto;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.single-course, .single-lesson, .single-quiz, .learner-info {
+	.post {
+		.entry {
+			clear: none;
+		}
+	}
+
+	article.post {
+		.woo-image {
+			width: auto;
+		}
+
+		.alignleft {
+			margin-left: 0;
+		}
+
+		.alignright {
+			margin-right: 0;
+		}
+	}
+}
+
+.single-course article.type-course,
+.single-lesson article.type-lesson,
+.single-quiz article.type-quiz,
+.learner-info {
+	background: #fff;
+	.border_radius;
+	.borderbox;
+	padding: 2.618em;
+	margin-bottom:1.618em;
+
+	.entry {
+		padding: 0 !important;
+	}
+
+	header {
+		.clearfix();
+	}
+}
+
+// General Sensei elements
+.meter {
+	clear: both;
+	height: 1.618em;
+	background: @bg_light;
+	.border_radius(.202em);
+	margin-bottom: 1.618em;
+	position: relative;
+
+	span {
+		display: inline-block;
+		.border_radius(.202em);
+		background: @color_links;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		color: #fff;
+		font-weight: 700;
+		min-width: 2.618em;
+		.borderbox;
+		padding-right: .618em;
+		text-align: right;
+	}
+}
+
+.status {
+	display: inline-block;
+	padding: .236em .857em;
+	background: @border_main;
+	.border_radius(.202em);
+	font-weight: 700;
+
+	&.in-progress {
+		&:before {
+			.iconbefore;
+			content: "\f01c";
+		}
+	}
+
+	&.completed {
+		background: @success;
+		color: #fff;
+
+		&:before {
+			.iconbefore;
+			content: "\f05d";
+		}
+	}
+
+	&.register {
+		background: @info;
+		color: #fff;
+
+		&:before {
+			.iconbefore;
+			content: "\f007";
+		}
+	}
+}
+
+a.view-results,
+a.view-results-link,
+a.sensei-certificate-link {
+	display: inline-block;
+	padding: .236em .857em;
+	background: @border_main;
+	.border_radius(.202em);
+	font-weight: 700;
+
+	&:before {
+		.iconbefore;
+		content: "\f18e";
+	}
+}
+
+.sensei-results-links {
+	margin-bottom:1.618em;
+}
+
+.lesson-status {
+	&.in-progress {
+		&:before {
+			.iconbefore;
+			content: "\f10c";
+		}
+	}
+
+	&.completed, &.complete {
+		&:before {
+			.iconbefore;
+			content: "\f05d";
+		}
+	}
+
+	&.register {
+		&:before {
+			.iconbefore;
+			content: "\f007";
+		}
+	}
+}
+
+.lesson-course:before {
+	.iconbefore;
+	content: "\f112";
+}
+
+.course-price {
+	font-weight: 700;
+
+	del {
+		.opacity(.5);
+		font-weight: normal;
+		margin-right: .236em;
+	}
+
+	ins {
+		text-decoration: none;
+		background: none;
+	}
+}
+
+.answer_message {
+	.message("\f129", @info);
+	margin: 1em 0 !important; // redeclaring .message() overrides this so we use !important
+
+	&.user_right,
+	&.user_wrong {
+		color: @color_body;
+	}
+
+	&.user_right {
+		.message("\f05d", @success);
+	}
+
+	&.user_wrong {
+		.message("\f05c", @error);
+	}
+
+	&.has_notes {
+		.notes {
+			display: none;
+		}
+	}
+}
+
+.sensei-message {
+	.message("\f129", @info);
+	margin: 1em 0;
+}
+
+.user_right {
+	color: @success;
+}
+
+.user_wrong {
+	color: @error;
+}
+
+.course {
+	.woo-sc-box {
+		clear:both;
+	}
+}
+
+// Courses
+.page {
+	.entry {
+		.course-container {
+			.course {
+				.clearfix;
+				border-bottom: 1px solid @border_main;
+
+				&:last-child {
+					border-bottom: 0;
+				}
+
+				.woo-image {
+					width: auto;
+				}
+
+				.alignleft {
+					margin-left: 0;
+				}
+
+				.alignright {
+					margin-right: 0;
+				}
+
+				.entry {
+					padding: 0;
+					clear: none;
+				}
+			}
+		}
+	}
+}
+
+.sensei-course-meta {
+	> span {
+		margin-right: 1em;
+		padding-right: 1em;
+		border-right: 1px solid @border_main;
+
+		&:last-child {
+			border: 0;
+			margin-right: 0;
+			padding-right: 0;
+		}
+
+		&.lesson-course {
+			&:before {
+				.iconbefore;
+				content: "\f148";
+				width: auto;
+				margin-right: .236em;
+				.rotate(90deg);
+			}
+		}
+	}
+}
+
+// Single Course
+.single-course {
+	.course-meta {
+		margin-bottom: 1.618em;
+		.clearfix;
+
+		.status {
+			float: left;
+			margin-right: .236em;
+		}
+
+		.view-results {
+			margin-right: .236em;
+		}
+	}
+}
+
+.course {
+	.total-grade {
+		border-top:2px solid @border_main;
+		padding-top:1em;
+		margin-top:1em;
+	}
+
+	.lesson-grade {
+		float: right;
+	}
+}
+
+// Lessons
+.course-lessons {
+	.course-completion-rate {
+		float: right;
+	}
+	.lesson {
+		.clearfix;
+		border-bottom: 1px solid @border_main;
+
+		&:last-child {
+			border-bottom: 0;
+		}
+
+		.lesson-meta {
+			> span {
+				margin-right: 1em;
+				padding-right: 1em;
+				border-right: 1px solid @border_main;
+
+				&:last-child {
+					border: 0;
+					margin-right: 0;
+					padding-right: 0;
+				}
+			}
+		}
+	}
+}
+
+// Single Quiz
+.single-quiz {
+	.multiple-choice {
+		> span {
+			font-weight: 700;
+		}
+
+		ul {
+			margin-left: 0;
+			li {
+				list-style: none;
+			}
+		}
+	}
+}
+
+#sensei-quiz-list {
+	margin-left:0;
+
+	> li {
+		margin-bottom: 2.618em;
+		padding: 1.618em;
+		border:1px solid rgba(0,0,0,0.1);
+		list-style: none;
+		.border_radius;
+
+		ul {
+			list-style: none;
+			margin-left:0;
+		}
+
+		.right_answer,
+		.wrong_answer {
+			font-weight: 700;
+		}
+	}
+}
+
+// Learner Profile
+.learner-info {
+	.avatar {
+		float: right;
+		.border_radius(.202em);
+		margin: 0 0 1.618em 1em;
+	}
+
+	& + h2 {
+		clear: both;
+	}
+}
+
+
+// Widgets
+.widget_sensei_category_courses,
+.widget_sensei_course_component {
+	li {
+		.clearfix;
+		margin-bottom: 1.618em;
+		list-style: none;
+	}
+
+	img {
+		width: 4.236em;
+		height: auto;
+		float: right;
+		.border_radius(.202em);
+	}
+}
+
+.widget_sensei_lesson_component {
+	li {
+		margin-bottom: 1.618em;
+	}
+}
+
+.home {
+	#content {
+		.widget_sensei_course_component,
+		.widget_sensei_lesson_component {
+			> ul {
+				.row(12);
+				> li {
+					.content;
+					.borderbox;
+					.column(4);
+					&:nth-child(4n) {
+						clear: both;
+					}
+					&.my-account {
+						.column(12);
+						text-align: right;
+					}
+					.lesson-course, .course-lesson-count {
+						font-size: .857em;
+						&:before {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
