@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /tag/*
+Disallow: /product-tag/*
+Disallow: /product/*
+Disallow: /c/.../?*
+Disallow: /product-tag/.../?*
+Disallow: /c/.../.../?*
+Disallow: /shop/*
