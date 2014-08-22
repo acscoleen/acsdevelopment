@@ -1,0 +1,1 @@
+þ…÷S<?php exit; ?>a:1:{s:7:"content";a:4:{s:10:"_edit_lock";a:1:{i:0;s:14:"1407944965:131";}s:10:"_edit_last";a:1:{i:0;s:3:"131";}s:19:"_sidebar_to_replace";a:1:{i:0;s:7:"primary";}s:10:"_condition";a:5:{i:0;s:9:"term-1011";i:1;s:9:"term-3021";i:2;s:9:"term-1041";i:3;s:9:"term-1081";i:4;s:9:"term-1001";}}}
