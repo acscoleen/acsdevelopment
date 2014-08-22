@@ -1,0 +1,3 @@
+Gˆ÷S<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":9:{s:7:"term_id";s:4:"1001";s:4:"name";s:14:"Kitchen Towels";s:4:"slug";s:14:"kitchen-towels";s:10:"term_group";s:1:"0";s:16:"term_taxonomy_id";s:4:"1011";s:8:"taxonomy";s:11:"product_cat";s:11:"description";s:190:"<img src="http://acswordpress.azurewebsites.net/wp-content/uploads/2014/05/Kitchen-Towels.jpg" alt="Kitchen Towels " width="851" height="300" class="alignnone size-full wp-image-7991" />
+
+";s:6:"parent";s:4:"1071";s:5:"count";s:1:"5";}}

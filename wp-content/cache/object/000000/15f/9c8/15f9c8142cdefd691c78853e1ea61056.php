@@ -1,0 +1,2 @@
+kˆ÷S<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":9:{s:7:"term_id";s:4:"1111";s:4:"name";s:11:"Bed Pillows";s:4:"slug";s:11:"bed-pillows";s:10:"term_group";s:1:"0";s:16:"term_taxonomy_id";s:4:"1121";s:8:"taxonomy";s:11:"product_cat";s:11:"description";s:184:"<img class="alignnone size-large wp-image-7501" src="http://acswordpress.azurewebsites.net/wp-content/uploads/2014/05/pillows1-1024x404.jpg" alt="pillows" width="960" height="379" />
+";s:6:"parent";s:4:"1101";s:5:"count";s:1:"4";}}
