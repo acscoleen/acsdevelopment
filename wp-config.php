@@ -1,5 +1,5 @@
 <?php
-define('COOKIE_DOMAIN', 'http://www.acshomeandwork.com'); // Added by W3 Total Cache
+define('COOKIE_DOMAIN', 'www.acshomeandwork.com'); // Added by W3 Total Cache
 
 define('FORCE_SSL_ADMIN', true);
 
