@@ -1,0 +1,74 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+a {
+  font-weight: normal;
+  color: #333333; 
+}
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go here */
+}
+
+h1 {
+  font-size: 1.318em;
+  line-height: 1.387em;
+}
+.single-product .summary .price {
+  font-size: 0.7398em;
+}
+
+#sidebar .widget h3 {
+  font-size: 1.318em;
+}
+
+#sidebar .widget a {
+  font-size: 13px;
+  line-height: 25px;
+  font-weight:normal;
+}
+ul.products li.product img {
+  height: 180px;
+  width: 160px;
+}
+#footer-widgets .widget a {
+  font-weight: normal;
+  font-size: 13px;
+}
+a {
+  font-weight: normal;
+  color: #333333; 
+}
+.footer-wrap.contact a {
+  font-weight: normal;
+}
+.breadcrumbs-wrap .breadcrumb a {
+  color: #697578;
+  font-weight: bold;
+}
+ul.megaMenu li.menu-item a{
+  font-weight:bold;
+}
+.yith_magnifier_zoom_wrap {
+    top: 0px;
+    z-index: 1;
+    position: relative;
+}

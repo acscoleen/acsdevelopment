@@ -1,0 +1,112 @@
+.container {
+
+    border: 1px  solid #ccc;
+
+    position: relative;
+
+	margin-bottom:10px;
+
+	border-top: none !important;
+
+}
+
+
+
+.container > div {
+
+    height:140px;
+
+    position: absolute;
+
+    width: 80px;
+	overflow:hidden;
+
+	float:left;
+
+}
+
+.container > div p{
+
+	margin:3px 0;
+
+	font-size:12px;
+
+	text-align:center;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.container > div img {
+
+	border:1px solid #cccccc;
+
+}
+
+.container > div[data-ss-colspan='2'] { width: 170px; }
+
+
+
+.container .ss-placeholder-child {
+
+    background: transparent;
+
+    border: 1px dashed #cccccc;
+
+}
+
+#sortable{
+
+	width:80%;
+
+	margin:0 auto;
+
+	padding:0;
+
+	list-style:none !important;
+
+}
+
+#sortable li h1{
+
+	font-size:16px;
+
+	margin:0;
+
+	padding:3px 10px;
+
+	color:#333;
+
+	font-weight:normal;
+
+	border:1px solid #cccccc;
+
+	background:#DDDDDD;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+.wcs_prod_cont{
+	width:100%;
+	height:80px;
+	overflow:hidden;
+}
+.wcs_prod_cont img {
+	width:100% !important;
+}
+.ss-active-child img{
+	width:97% !important;
+	height:75px !important;
+}
+.delete_prod{
+	position:absolute;
+	top:-5px;
+	left:5px;
+	font-size:18px;
+	text-decoration:none;
+}
+body{
+
+	margin:0;
+
+}
