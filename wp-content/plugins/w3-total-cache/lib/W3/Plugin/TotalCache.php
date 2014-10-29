@@ -500,7 +500,7 @@ class W3_Plugin_TotalCache extends W3_Plugin {
      * @return void
      */
     function footer() {
-        echo '<div style="text-align: center;"><a href="http://www.w3-edge.com/wordpress-plugins/" rel="external">Optimization WordPress Plugins &amp; Solutions by W3 EDGE</a></div>';
+        echo '';
     }
 
     /**
