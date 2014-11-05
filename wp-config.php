@@ -1,5 +1,5 @@
 <?php
-define('COOKIE_DOMAIN', 'acstestwp.azurewebsites.net'); // Added by W3 Total Cache
+//define('COOKIE_DOMAIN', 'acstestwp.azurewebsites.net'); // Added by W3 Total Cache
 
 define('FORCE_SSL_ADMIN', true);
 
