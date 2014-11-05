@@ -1,9 +1,10 @@
 <?php
-define('COOKIE_DOMAIN', 'www.acshomeandwork.com'); // Added by W3 Total Cache
+define('COOKIE_DOMAIN', 'acstestwp.azurewebsites.net'); // Added by W3 Total Cache
 
 define('FORCE_SSL_ADMIN', true);
 
-
+define('WP_HOME','http://acstestwp.azurewebsites.net');
+define('WP_SITEURL','http://acstestwp.azurewebsites.net');
 
 /** Enable W3 Total Cache */
 define('WP_CACHE', true); // Added by W3 Total Cache
