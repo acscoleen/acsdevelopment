@@ -1,5 +1,5 @@
 <?php
-//define('COOKIE_DOMAIN', 'acstestwp.azurewebsites.net'); // Added by W3 Total Cache
+define('COOKIE_DOMAIN', 'acstestwp.azurewebsites.net'); // Added by W3 Total Cache
 
 define('FORCE_SSL_ADMIN', true);
 
@@ -25,6 +25,7 @@ define('WP_CACHE', true); // Added by W3 Total Cache
  */
 
 define( 'WP_MAX_MEMORY_LIMIT', '256M' );
+define('WP_MEMORY_LIMIT', '64M');
 define('DB_NAME', 'cdb_50412df8ab');
 
 /** MySQL database username */
