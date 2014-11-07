@@ -7,7 +7,7 @@ define('WP_HOME','http://acstestwp.azurewebsites.net');
 define('WP_SITEURL','http://acstestwp.azurewebsites.net');
 
 /** Enable W3 Total Cache */
-define('WP_CACHE', true); // Added by W3 Total Cache
+//define('WP_CACHE', true); // Added by W3 Total Cache
 
 /**
  * The base configurations of the WordPress.
@@ -27,16 +27,16 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 
 
 define( 'WP_MAX_MEMORY_LIMIT', '256M' );
-define('DB_NAME', 'acswordAKTVCRln9');
+define('DB_NAME', 'cdb_50412df8ab');
 
 /** MySQL database username */
-define('DB_USER', 'b039394634dcdf');
+define('DB_USER', 'b1bb4d515e445e');
 
 /** MySQL database password */
-define('DB_PASSWORD', '09b58e8f7344ae6');
+define('DB_PASSWORD', 'b6e70899');
 
 /** MySQL hostname */
-define('DB_HOST', "us-cdbr-azure-east-a.cloudapp.net");
+define('DB_HOST', "us-cdbr-azure-east2-d.cloudapp.net");
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
