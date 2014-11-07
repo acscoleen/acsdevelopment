@@ -1,4 +1,0 @@
-wooslider
-=========
-
-WooSlider Plugins
