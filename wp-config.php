@@ -7,7 +7,7 @@ define('WP_HOME','http://acstestwp.azurewebsites.net');
 define('WP_SITEURL','http://acstestwp.azurewebsites.net');
 
 /** Enable W3 Total Cache */
-//define('WP_CACHE', true); // Added by W3 Total Cache
+define('WP_CACHE', true); // Added by W3 Total Cache
 
 /**
  * The base configurations of the WordPress.
@@ -23,8 +23,6 @@ define('WP_SITEURL','http://acstestwp.azurewebsites.net');
  *
  * @package WordPress
  */
-
-
 
 define( 'WP_MAX_MEMORY_LIMIT', '256M' );
 define('DB_NAME', 'cdb_50412df8ab');
@@ -100,5 +98,9 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+error_reporting(E_ALL); ini_set('display_errors', 1);
+define('WP_DEBUG', true);
+
 
 ?>
