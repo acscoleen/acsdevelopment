@@ -1,0 +1,193 @@
+#tradegecko-fulfillment-details .totals_group .left {
+        clear: none;
+        float: right;
+        width: 49%;
+}
+
+#tradegecko-fulfillment-details .totals_group .right {
+        clear: left;
+        float: left;
+        width: 49%;
+}
+
+#tradegecko-fulfillment-details .totals_group {
+        margin: 6px 0 0;
+        width: 100%;
+}
+
+#tradegecko-fulfillment-details ul.totals li label {
+        color: #333333;
+        display: block;
+        font-weight: normal;
+}
+#tradegecko-fulfillment-details ul.totals li input {
+        color: #555555;
+        font-size: 1em !important;
+        font-weight: normal;
+        margin: 0 !important;
+        vertical-align: top;
+        padding: 4px;
+        width: 100%;
+}
+
+.widefat .column-order_actions a.button img.wc_tradegecko_sync_icon,
+#tradegecko-fulfillment-details .column-order_actions a.button img.wc_tradegecko_sync_icon {
+        height: auto;
+        margin: 0;
+        width: 70px;
+}
+
+.wp-core-ui #wc_tradegecko_sync_action_button.button {
+        background: #AB1A1A;
+        background: linear-gradient(to bottom, #BF1717, #851313) repeat scroll 0 0 #AB1A1A
+}
+
+.wp-core-ui #wc_tradegecko_sync_action_button.button.synced {
+        background: #489320;
+        background: linear-gradient(to bottom, #5BBD26, #489320) repeat scroll 0 0 #489320;
+}
+
+.wp-list-table.widefat.fixed.synchronizationlogs mark {
+        background: none repeat scroll 0 0 #29AD0E;
+        border-radius: 3px 3px 3px 3px;
+        color: #FFFFFF;
+        display: block;
+        font-size: 11px;
+        font-weight: bold;
+        height: 22px;
+        line-height: 21px;
+        margin: 0;
+        padding: 0 2px;
+        text-align: center;
+        white-space: nowrap;
+        width: 80px;
+}
+
+.wp-list-table.widefat.fixed.synchronizationlogs mark.message {
+        background: none repeat scroll 0 0 #29AD0E;
+}
+
+.wp-list-table.widefat.fixed.synchronizationlogs mark.error {
+        background: none repeat scroll 0 0 #CD0D0D;
+}
+
+.manage-column.column-datetime {
+        width: 100px;
+}
+
+.manage-column.column-log_type {
+        width: 70px;
+}
+
+.manage-column.column-order_num {
+        width: 25px;
+}
+
+
+.wp-list-table.widefat.synchronizationlogs th {
+	padding: 0;
+	vertical-align: middle;
+}
+
+a.nav-tab.tab_errors {
+        position: relative;
+}
+
+a.nav-tab mark.error_mark {
+        background: none repeat scroll 0 0 #DB2A2A;
+        background: linear-gradient(to top, #A91B1B, #EB2929) repeat scroll 0 0 #DB2A2A;
+        border-radius: 10px 10px 10px 10px;
+        color: #FFFFFF;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 20px;
+        padding: 0 7px;
+        position: absolute;
+        right: -11px;
+        top: -12px;
+}
+
+a.nav-tab.tab_general {
+        margin-left: -7px;
+}
+
+#tradegecko-header {
+        width:100%;
+        margin-bottom:5px;
+}
+
+img.icon-tradegecko {
+        float:left;
+        margin: -6px 5px 0 0;
+}
+
+h2.nav-tab-wrapper {
+        padding-left:7px;
+}
+
+h2 .nav-tab {
+        padding: 2px 10px 3px;
+        font-weight: 300;
+        font-size: 16px;
+        margin-bottom: -1px;
+        background: white;
+}
+
+h3.tradegecko-header {
+        font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+        color: #464646;
+        font-size: 23px;
+        line-height: 29px;
+        padding: 9px 15px 4px 0;
+        line-height: 0;
+        font-weight: normal;
+}
+
+h3.tradegecko-header a {
+        font-size: 75%;
+}
+
+#wc_tradegecko_sync_product.not_synced {
+	background: linear-gradient(to bottom, #BF1717, #851313) repeat scroll 0 0 #AB1A1A;
+	border-radius: 4px 4px 4px 4px;
+	display: block;
+	height: 35px;
+	width: 35px;
+}
+
+#wc_tradegecko_sync_product.synced {
+	background: linear-gradient(to bottom, #5BBD26, #489320) repeat scroll 0 0 #489320;
+	border-radius: 4px 4px 4px 4px;
+	display: block;
+	height: 35px;
+	width: 35px;
+}
+
+#wc_tradegecko_sync_product img.wc_tradegecko_sync_icon {
+	width: 32px;
+	height: 32px;
+}
+
+div.sku_warning {
+	margin: 5px 0 15px;
+	background-color: #FFEBE8;
+	border-color: #CC0000;
+	padding: 0 0.6em;
+	border-radius: 3px 3px 3px 3px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+div.sku_message {
+	margin: 5px 0 15px;
+	background-color: #FFFFE0;
+	border-color: #E6DB55;
+	padding: 0 0.6em;
+	border-radius: 3px 3px 3px 3px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+a#wc_tradegecko_sync_product.tips {
+	cursor: pointer;
+}

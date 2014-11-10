@@ -1,0 +1,43 @@
+#paypal_pro-cc-form .wc-credit-card-form-card-number,
+#paypal_pro-cc-form .wc-credit-card-form-card-expiry,
+#paypal_pro-cc-form .wc-credit-card-form-card-cvc,
+#paypal_pro_payflow-cc-form .wc-credit-card-form-card-number,
+#paypal_pro_payflow-cc-form .wc-credit-card-form-card-expiry,
+#paypal_pro_payflow-cc-form .wc-credit-card-form-card-cvc {
+	font-size: 1.5em;
+	padding: 8px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#paypal_pro_payflow-cc-form .visa,
+#paypal_pro-cc-form .visa {
+	background-image: url(../images/credit-cards/visa.png);
+}
+#paypal_pro_payflow-cc-form .mastercard,
+#paypal_pro-cc-form .mastercard {
+	background-image: url(../images/credit-cards/mastercard.png);
+}
+#paypal_pro_payflow-cc-form .laser,
+#paypal_pro-cc-form .laser {
+	background-image: url(../images/credit-cards/laser.png);
+}
+#paypal_pro_payflow-cc-form .dinersclub,
+#paypal_pro-cc-form .dinersclub {
+	background-image: url(../images/credit-cards/diners.png);
+}
+#paypal_pro_payflow-cc-form .maestro,
+#paypal_pro-cc-form .maestro {
+	background-image: url(../images/credit-cards/maestro.png);
+}
+#paypal_pro_payflow-cc-form .jcb,
+#paypal_pro-cc-form .jcb {
+	background-image: url(../images/credit-cards/jcb.png);
+}
+#paypal_pro_payflow-cc-form .amex, 
+#paypal_pro-cc-form .amex {
+	background-image: url(../images/credit-cards/amex.png);
+}
+#paypal_pro_payflow-cc-form .discover,
+#paypal_pro-cc-form .discover {
+	background-image: url(../images/credit-cards/discover.png);
+}

@@ -1,0 +1,62 @@
+*** Warranty Requests Changelog ***
+
+2014.05.20 - version 1.1.7
+ * Bug fix: Removed the static email variables and replaced with new dynamic ones based on the custom warranty form builder
+
+2014.04.17 - version 1.1.6
+ * Bug fix: Added select option to settings for selecting/defining warranty page
+ * Bug fix: Manage warranty page updated to show active product warranties based upon product type instead of all
+ * Bug fix: Added safety checks to ensure refunded items couldn't have request warranty button even when it is allowed
+
+2014.04.11 - version 1.1.5
+ * Bug fix: Prevent multiple warranty pages from getting automatically created
+
+2014.04.10 - version 1.1.4
+ * Bug fix: Ensure that the warranty request page actually exists
+
+2014.03.21 - version 1.1.3
+ * Bug fix: Use variation ID if available on order item meta
+ * Bug fix: Fixed default number of entries to show on the bulk edit table
+ * Bug fix: Fixed display of multiple selected values in the Requests table
+ * Bug fix: Fixed delete action of add-on warranty for variables
+ 
+2014.03.05 - version 1.1.2
+ * Enhancement: Added support for returning variation stock
+ * Cleanup: Minor tweaks to the warranty form
+
+2014.02.08 - version 1.1.1
+ * Bug fix: Fixed issue with add-to-cart and variations
+ * Enhancements: Added pagination and sorting to bulk warranty editor
+
+2014.02.05 - version 1.1.0
+ * Enhancement: WooCommerce 2.1 support
+ * Enhancement: Bulk product warranty editor
+ * Enhancement: Ability to assign specific user roles different statuses to manage workflow and jobs
+ * Enhancement: Custom request form builder - create your own custom forms
+
+2013.11.10 - version 1.0.6
+ * Bug fix: CSV Import support missing meta details
+
+2013.10.29 - version 1.0.5
+ * Enhancement: Added {warranty_question} variable for email templates
+ * Bug fix: Fixed display of warranty request notes in the admin
+ * Enhancement: Support for CSV Import Suite - warranty_type, warranty, warranty_duration, warranty_unit, warranty_label
+ * Bug fix: Remove duplicate order number search
+
+2013.09.30 - version 1.0.4
+ * Bug fix: Button customizations weren't loading in frontend
+ * Enhancement: Ability to delete warranty requests/RMA from admin
+ * Bug fix: Ensure that warranties are only started at correct status 
+ * Bug fix: Add support for matching ID of warranty request to orders using sequential order number extension
+
+2013.09.17 - version 1.0.3
+ * Setting: Define on what statuses you want to display the warranty button to purchasers
+ 
+2013.09.10 - version 1.0.2
+ * Improvement: Hide individual product warranties on bundle purchases - show the bundles warranty only
+
+2013.08.08 - version 1.0.1
+ * Feature: Return item to stock from warranty interface
+
+2013.07.25 - version 1.0.0
+ * First release
