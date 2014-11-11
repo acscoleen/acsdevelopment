@@ -1,6 +1,5 @@
 <?php
-//define( 'WP_MAX_MEMORY_LIMIT', '256M' );
-define('WP_MEMORY_LIMIT', '512M');
+define( 'WP_MAX_MEMORY_LIMIT', '256M' );
 
 define('COOKIE_DOMAIN', 'http://acstestwp.azurewebsites.net'); // Added by W3 Total Cache
 
@@ -89,7 +88,7 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 
 /* That's all, stop editing! Happy blogging. */
@@ -102,7 +101,6 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 
 error_reporting(E_ALL); ini_set('display_errors', 1);
-define('WP_DEBUG', true);
 
 
 ?>
