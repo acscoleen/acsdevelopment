@@ -100,6 +100,11 @@ add_filter( 'wc_product_enable_dimensions_display', '__return_false' );
 //Displays brief description on each product category pages product listings
 add_action('woocommerce_after_shop_loop_item_title','woocommerce_template_single_excerpt', 5);
 
+//fix for cookie error while login.
+setcookie(TEST_COOKIE, 'WP Cookie check', 0, COOKIEPATH, COOKIE_DOMAIN);
+if ( SITECOOKIEPATH != COOKIEPATH )
+	setcookie(TEST_COOKIE, 'WP Cookie check', 0, SITECOOKIEPATH, COOKIE_DOMAIN);
+
 
 /*-----------------------------------------------------------------------------------*/
 /* Don't add any code below here or the sky will fall down */
