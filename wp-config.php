@@ -1,7 +1,7 @@
 <?php
 define( 'WP_MAX_MEMORY_LIMIT', '256M' );
 
-define('COOKIE_DOMAIN', 'http://acstestwp.azurewebsites.net'); // Added by W3 Total Cache
+define('COOKIE_DOMAIN', false); // Added by W3 Total Cache
 
 define('FORCE_SSL_ADMIN', true);
 
