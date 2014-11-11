@@ -5,8 +5,8 @@
  * @package WordPress
  */
 
-update_option('siteurl','http://acstestwp.azurewebsites.net');
-update_option('home','http://acstestwp.azurewebsites.net');
+//update_option('siteurl','http://acstestwp.azurewebsites.net');
+//update_option('home','http://acstestwp.azurewebsites.net');
  
 require( ABSPATH . WPINC . '/option.php' );
 
