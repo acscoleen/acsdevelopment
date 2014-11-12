@@ -1,0 +1,152 @@
+#new-im-shortcode-generator-header {
+  border-bottom: 1px solid #DFDFDF;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 5px 0;
+  position: relative;
+  background-color: #F9F9F9;
+}
+
+#wpbody-content #new-im-shortcode-generator-header {
+  margin-left: -19px;
+}
+
+.new-im-sidemenu {
+  float: right;
+  font-size: 12px;
+  list-style: none outside none;
+  padding-left: 10px;
+  position: relative;
+}
+
+.new-im-sidemenu {
+  bottom: -1px;
+  float: none;
+  font-weight: normal;
+  left: 0;
+  margin: 0 5px;
+  overflow: hidden;
+}
+
+.new-im-sidemenu li {
+  display: inline;
+  line-height: 200%;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.new-im-sidemenu a {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  display: block;
+  float: left;
+  line-height: 28px;
+  padding: 0 7px;
+  background-color: #F9F9F9;
+  border-color: #F9F9F9 #F9F9F9 #DFDFDF;
+  text-decoration: none;
+}
+
+.new-im-sidemenu a.current {
+  border: solid 1px;
+  border-color: #DFDFDF #DFDFDF #FFFFFF;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  font-weight: normal;
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: #FFFFFF;
+  color: #D54E21;
+}
+
+#new-im-shortcode-generator-form{
+  margin: 20px 12px;
+}
+
+#new-im-shortcode-generator-pages{
+  position: relative;
+}
+
+.new-im-pages{
+  min-width: 600px;
+  display: none;
+}
+
+.new-im-pages.current{
+  display: block;
+}
+
+#new-im-shortcode-frame,
+.new-im-pages .new-im-frame{
+  border: 1px solid #DFDFDF;
+  padding: 12px;
+}
+
+.new-im-pages table{
+  width: 100%;
+}
+
+.new-im-pages tr{
+}
+
+
+.new-im-pages tr.new-im-hidden{
+  display: none;
+}
+
+.new-im-pages th{
+  width: 150px;
+  vertical-align:top;
+  line-height: 25px;
+}
+
+.new-im-pages th label{
+  font-weight: bold;
+}
+
+.new-im-pages input[type="text"],
+.new-im-pages textarea{
+  width: 100%;
+}
+
+.new-im-pages select{
+  min-width: 200px;
+}
+
+#new_im_maxwidth,
+#new_im_zoom,
+#new_im_size{
+  width: 10%;
+  float: left;
+}
+
+.ui-slider{
+  position: relative;
+  width: 84%;
+  border-radius: 4px;
+  border: 1px solid #AAAAAA;
+  height: 9px;
+  float: right;
+  margin-top: 7px;
+}
+
+.ui-slider .ui-slider-handle{
+  border: 1px solid #D3D3D3;
+  background:#f3f3f3;
+  cursor: default;
+  height: 17px;
+  position: absolute;
+  width: 16px;
+  z-index: 2;
+  border-radius: 4px;
+  top: -5px;
+  margin-left: -9px;
+}
+
+.new-im-shortcode{
+  clear: both;
+  margin-top:20px;
+}
