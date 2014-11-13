@@ -85,11 +85,10 @@ add_action('woocommerce_after_shop_loop_item_title','woocommerce_template_single
 /*-----------------------------------------------------------------------------------*/
 ?>
 
-function yit_print_custom_style() {
-  ?>
+<?php function yit_print_custom_style() {
   <style type="text/css">
   #megaMenu ul ul.sub-menu { z-index: 99999; }
   </style>
-  <?php
 }
 add_action( 'wp_head', 'yit_print_custom_style' );
+?>
